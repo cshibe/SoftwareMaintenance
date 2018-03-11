@@ -35,4 +35,13 @@ public class TestMain {
         String[] args = {"mysql"};
         Main.main(args);
     }
+
+    @Test
+    public void testMain4() throws ConnectFailedException, ImportFailedException
+    {
+        exit.expectSystemExit();
+        System.out.println("Testing Main No File");
+        String[] args = {};
+        Main.main(args);
+    }
 }
