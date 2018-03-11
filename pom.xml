@@ -90,7 +90,12 @@
 			<artifactId>databene-script</artifactId>
 			<version>${script_version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.github.stefanbirkner</groupId>
+			<artifactId>system-rules</artifactId>
+			<version>1.17.0</version>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.databene</groupId>
 			<artifactId>contiperf</artifactId>
